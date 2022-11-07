@@ -5,7 +5,7 @@ Create table Movie(
     year int(4)
 );
 Create table Review(
-    id int(8)AUTOINCREMENT PRIMARY KEY,
+    id int(8)AUTO_INCREMENT PRIMARY KEY,
     name varchar(100) NOT NULL,
     email varchar(100) NOT NULL,
     description varchar(4000) NOT NULL,
