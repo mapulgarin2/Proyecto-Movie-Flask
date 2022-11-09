@@ -1,11 +1,12 @@
-Create table Movie(
+CREATE TABLE Movie (
     code varchar(10) PRIMARY KEY,
     name varchar(100)NOT NULL,
-    image varchar(225),
+    image_url varchar(225),
     year int(4)
 );
-Create table Review(
-    id int(8)AUTO_INCREMENT PRIMARY KEY,
+
+CREATE TABLE Review (
+    id int(8) AUTO_INCREMENT PRIMARY KEY,
     name varchar(100) NOT NULL,
     email varchar(100) NOT NULL,
     description varchar(4000) NOT NULL,
