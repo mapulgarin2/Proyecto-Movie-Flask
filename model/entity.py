@@ -14,7 +14,7 @@ class Review:
         self.rating = rating
         self.code = movie_code
         
-        pass   
+          
     
                  
     
